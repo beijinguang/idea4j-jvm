@@ -19,6 +19,20 @@ Java HotSpot(TM) 64-Bit Server VM (build 14.0.2+12-46, mixed mode, sharing)
 
 
 
+-XX:InitialHeapSize=266321472 
+-XX:MaxHeapSize=4261143552 
+-XX:+PrintCommandLineFlags 
+-XX:+UseCompressedClassPointers 
+-XX:+UseCompressedOops 
+-XX:-UseLargePagesIndividualAllocation 
+-XX:+UseParallelGC
+
+java version "1.8.0_151"
+Java(TM) SE Runtime Environment (build 1.8.0_151-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.151-b12, mixed mode)
+
+
+
 - -XX:+UseSerialGC 年轻代和⽼年代都⽤串⾏收集器 
 - -XX:+UseParNewGC 年轻代使⽤ ParNew，⽼年代使⽤ Serial Old
 - -XX:+UseParallelGC 年轻代使⽤ ParallerGC，⽼年代使⽤ Serial Old
